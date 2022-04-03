@@ -1,0 +1,128 @@
+@font-face {
+    font-family: Monoton;
+    src: url("../styles/Monoton-Regular.ttf");
+}
+
+@font-face {
+    font-family: SmoochSans;
+    src: url("../styles/SmoochSans-Regular.ttf");
+}
+
+html {
+    font-family: SmoochSans;
+    font-size: 20px;
+    background-color: #333;
+}
+
+body {
+    background-color: black;
+    margin: 0 auto;
+    width: 1150px;
+    padding: 0 20px 20px 20px;
+    border: 5px solid #ddd;
+}
+
+ul.navbar {
+    background-color: #333;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+li.navbar-item, li.navbar-item-selected {
+    color: white;
+    float: left;
+    font-size: 20px;
+}
+
+li.navbar-item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.navbar-item a:hover {
+    background-color: #111;
+}
+
+li.navbar-item-selected a {
+    display: block;
+    background-color: #ddd;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.navbar-item-selected a:hover {
+
+}
+
+li {
+    color: white;
+    font-size: 24px;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#main-title {
+    font-family: Monoton;
+    color: white;
+    text-align: center;
+    --background-color: #333;
+    margin: 0;
+    padding: 20px 0 0 0;
+    font-size: 40px;
+}
+
+#identitas {
+    font-size: 18px;
+    margin: 0;
+    padding: 0 0 20px 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+h2 {
+    color: white;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+p {
+    color: white;
+    font-size: 24px;
+    text-align: justify;
+}
+
+.gallery-left {
+    float: left;
+    margin: 5px;
+    width: 45%;
+}
+
+.gallery-right {
+    float: right;
+    margin: 5px;
+    width: 45%;
+}
+
+img.gallery-side {
+    display: block;
+    margin: 0 auto;
+    width: 520px;
+}
+
+img.gallery-center {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+}
